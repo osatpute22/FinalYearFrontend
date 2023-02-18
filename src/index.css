@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:black;
+  align-items: center;
+  justify-content: center;
+}
+/* body:hover{
+  background-color: rgb(9, 9, 9);
+  transition: 2s;
+  text-shadow: 1pc;
+} */
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 72px;
+  /* box-shadow: 2px 2.5px 3px 3px rgb(243, 241, 241); */
+  opacity: 0.4;
+}
+header .logo{
+  font-size: 40px ;
+  color: rgb(247, 24, 147);
+  padding-right: 320px;
+  padding-bottom: 40px;
+  transition: 0.3s;
+  padding-top: 38px;
+  
+  
+}
+
+header .logo:hover{
+  color: rgb(86, 182, 251);
+  font-size: 50px;
+}
+header .logo img{
+
+  margin-top: 40px;
+  height: 60px;
+  width: 60px;
+  color: rgb(2, 103, 17);
+  border-radius: 90px;
+  padding-top: 12px;
+}
+header .logo img:hover{
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  padding-top: 13px;
+  
+}
+header .display-menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.display-menu .menu{
+  padding: 2px 15px;
+  text-decoration: none;
+  color:white;
+  font-size: 20px;
+  transition: 0.4s;
+  font-weight: 500 ;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  /* box-shadow: 0 0 10px 0 #f6ee06 inset,
+              0 0 10px 4px #04f75d; */
+  margin: 18px 18px 18px 18px;
+}
+.display-menu .menu:hover{
+  text-decoration: solid;
+  font-size: 21px;
+  color: aqua;
+}
+.display-menu .menu:hover > :not(:hover){
+  opacity: 0.6;
+
+}
