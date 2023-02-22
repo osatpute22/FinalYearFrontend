@@ -23,31 +23,41 @@ header{
   display: flex;
   justify-content: space-around;
   align-items: center;
-  height: 72px;
+  height: 60px;
+  color:white;
   /* box-shadow: 2px 2.5px 3px 3px rgb(243, 241, 241); */
   opacity: 0.4;
 }
-header .logo{
-  font-size: 40px ;
-  color: rgb(247, 24, 147);
+header .logo h5{
+  font-size: 30px ;
+  color: rgb(234, 233, 234);
   padding-right: 320px;
-  padding-bottom: 40px;
+  padding-bottom: 30px;
   transition: 0.3s;
   padding-top: 38px;
   
-  
 }
 
-header .logo:hover{
-  color: rgb(86, 182, 251);
-  font-size: 50px;
+header .logo h5:hover{
+  color: rgb(46, 155, 183);
+  font-size: 40px;
+  text-shadow:
+      0 0 5px #fff,
+      0 0 10px #fff,
+      0 0 20px #fff,
+      0 0 40px rgb(141, 202, 202),
+      0 0 80px rgb(27, 241, 241),
+      0 0 90px rgb(37, 202, 202),
+      0 0 700px rgb(3, 239, 239),
+      0 0 120px rgb(110, 204, 204);
 }
+
 header .logo img{
 
   margin-top: 40px;
   height: 60px;
   width: 60px;
-  color: rgb(2, 103, 17);
+  color: rgb(228, 228, 228);
   border-radius: 90px;
   padding-top: 12px;
 }
@@ -77,8 +87,16 @@ header .display-menu{
 }
 .display-menu .menu:hover{
   text-decoration: solid;
-  font-size: 21px;
-  color: aqua;
+  font-size: 22px;
+  color: rgb(15, 13, 13);
+  text-shadow: 2x 2px 0px 0px 
+  white;
+  background-color: rgb(254, 251, 253);
+  border:2px solid white;
+  box-shadow: 0 0 10px 0 rgb(253, 252, 253) inset,
+              0 0 10px 4px rgb(253, 245, 253);
+  border-radius: 30px;
+  
 }
 .display-menu .menu:hover > :not(:hover){
   opacity: 0.6;
