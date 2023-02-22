@@ -11,7 +11,7 @@ const Logs=()=>{
       
       
       <div className='buttonmain'>
-         <button onClick={() => setVisible(!visible)}>{visible ? 'Abstract' : 'Display'}</button>
+         <button onClick={() => setVisible(!visible)}>{visible ? 'Hide Transaction' : 'Display Transaction'}</button>
          
       </div>
       {visible?BlockData.map(block => (

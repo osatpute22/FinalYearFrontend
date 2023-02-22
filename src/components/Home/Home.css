@@ -113,7 +113,9 @@ main{
 
 input{
     padding-top: 190px;
+    padding-left: px;
 }
 .form-label{
-    padding-top: 180px;
+    padding-top: 200px;
+    padding-left: 120px;
 }
