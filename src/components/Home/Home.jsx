@@ -90,7 +90,7 @@ function Home()
                <div className="row fthight">               
                <div className="col-md-4 ">
                <input type="file" className="form-control" onChange={ (e)=>readExcel(e)} />
-               <h3 className='mt-3'>Fetch Excel Data in React js</h3>
+               <h3 className='mt-3'>Fetch Excel File</h3>
                </div>
               
                {/* <div className="col-md-12 mt-3">   
