@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-// import { Container } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 import *as xlsx from 'xlsx';
 import './Home.css';
 // function Home() {
@@ -85,44 +85,14 @@ function Home()
 
   }
     return(
-        <React.Fragment>
+        <div>
               <div className="content">
-               <div className="row fthight">               
-               <div className="col-md-4 ">
+               
                <input type="file" className="form-control" onChange={ (e)=>readExcel(e)} />
                <h3 className='mt-3'>Fetch Excel File </h3>
+            
                </div>
-              
-               {/* <div className="col-md-12 mt-3">   
-               { excelData.length > 1 && (
-                <table className="table">
-                  <thead>
-                     <tr>
-                        <th>Sr. No</th>
-                        <th>Name</th>
-                        <th>Email</th>
-                        <th>Phone No</th>
-                     </tr>
-                  </thead>
-                  <tbody>
-                    {                     
-                    excelData.map( (getdata, index)=>(
-                     <tr key={index}>
-                        <td>{ index+1 }</td>
-                        <td>{ getdata.name} </td>
-                        <td>{ getdata.email} </td>
-                        <td>{ getdata.phoneno} </td>
-                     </tr>
-                     ) ) }
-                  </tbody>
-                </table>
-               )
-}
-
-               </div> */}
-               </div>
-             </div>
-        </React.Fragment>
+        </div>
     );
 }
 export default Home;
