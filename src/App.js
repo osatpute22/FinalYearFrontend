@@ -11,6 +11,7 @@ import About from './components/About/About';
 import NavBar from './components/NavBar/NavBar';
 
 
+
 function App() {
   
  // const [visible, setVisible] = React.useState(false);
@@ -39,6 +40,7 @@ function App() {
       <Route  path='/' element={<Home/>}/>
       <Route  path='/about' element={<About/>}/>
       <Route  path='/logs' element={<Logs/>}/>
+      
     </Routes>
 
     </>
